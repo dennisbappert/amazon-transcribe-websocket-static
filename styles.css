@@ -1,108 +1,47 @@
 body {
-  margin: 20px;
+    margin: 20px;
 }
 
 #transcript {
-  margin: 30px 0;
-  white-space: pre-wrap;
+    margin: 30px 0;
+    white-space: pre-wrap;
 }
 
 #start-button,
 #stop-button {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 #error {
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.4rem;
-  border-radius: 5px 5px 5px 5px;
-  color: #d8000c;
-  background-color: #ffd2d2;
-  display: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.4rem;
+    border-radius: 5px 5px 5px 5px;
+    color: #D8000C;
+    background-color: #FFD2D2;
+    display: none;
 }
 
 .isa_error i {
-  margin: 2px 12px;
-  font-size: 1.5em;
-  vertical-align: middle;
+    margin: 2px 12px;
+    font-size: 1.5em;
+    vertical-align: middle;
 }
 
 #logo {
-  height: 52px;
+    height: 52px;
 }
 
 #github {
-  fill: #146eb4;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  border: 0;
-  right: 0;
+    fill: #146eb4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
 }
 
 .small-caps {
-  font-variant: small-caps;
-}
-
-.blinking-cursor {
-  font-weight: 100;
-  font-size: 30px;
-  color: #2e3d48;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-o-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
+    font-variant: small-caps;
 }
