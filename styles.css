@@ -54,16 +54,10 @@ body {
 }
 
 .container {
-    position: relative;
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .footer {
@@ -74,4 +68,9 @@ body {
   background-color: #232f3e;
   color: #ddd;
   text-align: right;
+}
+
+.footer a {
+  margin: 10px;
+  color: #ddd;
 }
