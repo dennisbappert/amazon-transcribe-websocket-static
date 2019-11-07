@@ -12,11 +12,19 @@
 
 <body style="background-color: #ff9900; height: 100%;">
     <div class="scoring" style="display: none;">
-        <div style="display: inline-block; width: 35%;">
-            <i class="far fa-thumbs-up fa-10x" style="color: #232f3e;"></i>
-        </div>
-        <div style="display: inline-block; width: 60%; margin-left: 20px;">
-            Great work, your score is 95%
+        <div style="display: flex;
+        align-items: center;
+        justify-content: center;">
+            <div style="display: inline-block; width: 35%;">
+                <i class="far fa-thumbs-up fa-10x" style="color: #232f3e;"></i>
+            </div>
+            <div style="display: inline-block;
+            width: 60%;
+            margin-left: 50px;
+            float: right;
+            font-size: 30px;">
+                Great work, your score is 95%
+            </div>
         </div>
     </div>
     <img src="aws.png" style="height: 75px;
@@ -31,7 +39,10 @@
             overflow: hidden;
             font-size: 4rem;"></textarea>
     </div>
-
+    <div id="gauge" style="height: 150px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;"></img>
     <div class="footer">
         <a>Show cadence</a>
         <a>Verify company fit</a>
@@ -41,6 +52,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.15.1/tingle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+    <script src="gauge.js"></script>
     <script src="dist/main.js"></script>
 </body>
 
